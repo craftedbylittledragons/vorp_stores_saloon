@@ -85,10 +85,10 @@ Config.Stores = {
 
 SaloonMarketItems_SELL = {
     -- Drinks
-        { itemLabel = "Water", itemName = "water", currencyType = "cash", sellprice = 1, randomprice = math.random(30, 55), desc = "Sell Water", category = "Drinks" },
+        { itemLabel = "Water", itemName = "water", currencyType = "cash", item_price = 1, randomprice = math.random(30, 55), desc = "Sell Water", category = "Drinks" },
                 
     -- Food
-        { itemLabel = "Breakfast", itemName = "consumable_breakfast", currencyType = "cash", sellprice = 5, randomprice = math.random(30, 55), desc = "Sell a Breakfast", category = "Food" }
+        { itemLabel = "Breakfast", itemName = "consumable_breakfast", currencyType = "cash", item_price = 5, randomprice = math.random(30, 55), desc = "Sell a Breakfast", category = "Food" }
     
  }
  
@@ -146,10 +146,10 @@ Config.SellItems = {
  
     SaloonMarketItems_BUY = {
         -- Drinks
-            { itemLabel = "Water", itemName = "water", currencyType = "cash", buyprice = 1, randomprice = math.random(30, 55), desc = "Sell Water", category = "Drinks" },
+            { itemLabel = "Water", itemName = "water", currencyType = "cash", item_price = 1, randomprice = math.random(30, 55), desc = "Sell Water", category = "Drinks" },
                     
         -- Food
-            { itemLabel = "Breakfast", itemName = "consumable_breakfast", currencyType = "cash", buyprice = 5, randomprice = math.random(30, 55), desc = "Sell a Breakfast", category = "Food" }
+            { itemLabel = "Breakfast", itemName = "consumable_breakfast", currencyType = "cash", item_price = 5, randomprice = math.random(30, 55), desc = "Sell a Breakfast", category = "Food" }
          }
 
 -----------------------------------------------------------------------------
