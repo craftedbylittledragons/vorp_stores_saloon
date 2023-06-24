@@ -22,11 +22,14 @@ dependencies {
     'vorp_inventory', -- download from the vorp github
 } 
 
-
 --dont
 --touch
 
+<<<<<<< Updated upstream
 version '1.6.2'
+=======
+version '1.6.3'
+>>>>>>> Stashed changes
 vorp_checker 'yes'
 vorp_name '^4Resource version Check^3'
 vorp_github 'https://github.com/craftedbylittledragons/vorp_stores_saloon'
